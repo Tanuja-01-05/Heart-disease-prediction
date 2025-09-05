@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from feature_engine.outliers import Winsorizer
 
-heart = pd.read_csv(r"/Users/Desktop/heart.csv")    #reading data
+heart = pd.read_csv(r"heart.csv")    #reading data
 
 heart.columns  #to display columns in the data 
 
@@ -512,6 +512,7 @@ labelEncoder = LabelEncoder()
 
 # Selecting columns for label encoding (assuming first 9 columns)
 x = heart.iloc[:,:9] 
+
 
 
 
